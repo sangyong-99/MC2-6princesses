@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewController: ViewController = ViewController()
+    @StateObject var userInformation: UserInformation = UserInformation()
+    @StateObject var questiondata: QuestionData = QuestionData()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 0) {
+            View_3(userInformation: userInformation, viewController: viewController)
         }
-        .padding()
+        
     }
 }
 
