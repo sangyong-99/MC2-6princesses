@@ -12,7 +12,7 @@ struct View_2: View {
     @State private var date = Date()
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 0) {
             Spacer()
                 .frame(height:158)
             //Title
