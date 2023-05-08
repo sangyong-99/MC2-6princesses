@@ -12,11 +12,6 @@
 		5E8AC0162A0896FF00B9E2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8AC0152A0896FF00B9E2FC /* Assets.xcassets */; };
 		5E8AC0192A0896FF00B9E2FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8AC0182A0896FF00B9E2FC /* Preview Assets.xcassets */; };
 		5E8AC0202A08972C00B9E2FC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AC01F2A08972C00B9E2FC /* ModelData.swift */; };
-		DA2B94862A089BB300E4065D /* View_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2B94852A089BB300E4065D /* View_1.swift */; };
-		DA2B94892A08A17D00E4065D /* NextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2B94882A08A17D00E4065D /* NextButtonView.swift */; };
-		DA2B948B2A08A4B300E4065D /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2B948A2A08A4B300E4065D /* Color_extension.swift */; };
-		DA2B948D2A08CBFC00E4065D /* View_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2B948C2A08CBFC00E4065D /* View_3.swift */; };
-		DA2B94902A08CF5A00E4065D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2B948F2A08CF5A00E4065D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +21,6 @@
 		5E8AC0152A0896FF00B9E2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E8AC0182A0896FF00B9E2FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E8AC01F2A08972C00B9E2FC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		DA2B94852A089BB300E4065D /* View_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_1.swift; sourceTree = "<group>"; };
-		DA2B94882A08A17D00E4065D /* NextButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonView.swift; sourceTree = "<group>"; };
-		DA2B948A2A08A4B300E4065D /* Color_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_extension.swift; sourceTree = "<group>"; };
-		DA2B948C2A08CBFC00E4065D /* View_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_3.swift; sourceTree = "<group>"; };
-		DA2B948F2A08CF5A00E4065D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +55,6 @@
 			children = (
 				5E8AC0112A0896FE00B9E2FC /* sixprincessesApp.swift */,
 				5E8AC0132A0896FE00B9E2FC /* ContentView.swift */,
-				DA2B94842A089B1300E4065D /* Onboarding */,
 				5E8AC0212A08978600B9E2FC /* Data_extension */,
 				5E8AC0152A0896FF00B9E2FC /* Assets.xcassets */,
 				5E8AC0172A0896FF00B9E2FC /* Preview Content */,
@@ -85,36 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				5E8AC01F2A08972C00B9E2FC /* ModelData.swift */,
-				DA2B948A2A08A4B300E4065D /* Color_extension.swift */,
 			);
 			path = Data_extension;
-			sourceTree = "<group>";
-		};
-		DA2B94842A089B1300E4065D /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				DA2B94852A089BB300E4065D /* View_1.swift */,
-				DA2B948C2A08CBFC00E4065D /* View_3.swift */,
-				DA2B948E2A08CF4800E4065D /* Function */,
-				DA2B94872A08A16100E4065D /* FunctionView */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		DA2B94872A08A16100E4065D /* FunctionView */ = {
-			isa = PBXGroup;
-			children = (
-				DA2B94882A08A17D00E4065D /* NextButtonView.swift */,
-			);
-			path = FunctionView;
-			sourceTree = "<group>";
-		};
-		DA2B948E2A08CF4800E4065D /* Function */ = {
-			isa = PBXGroup;
-			children = (
-				DA2B948F2A08CF5A00E4065D /* ImagePicker.swift */,
-			);
-			path = Function;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,12 +150,7 @@
 			files = (
 				5E8AC0142A0896FE00B9E2FC /* ContentView.swift in Sources */,
 				5E8AC0122A0896FE00B9E2FC /* sixprincessesApp.swift in Sources */,
-				DA2B94862A089BB300E4065D /* View_1.swift in Sources */,
 				5E8AC0202A08972C00B9E2FC /* ModelData.swift in Sources */,
-				DA2B948D2A08CBFC00E4065D /* View_3.swift in Sources */,
-				DA2B94902A08CF5A00E4065D /* ImagePicker.swift in Sources */,
-				DA2B94892A08A17D00E4065D /* NextButtonView.swift in Sources */,
-				DA2B948B2A08A4B300E4065D /* Color_extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
