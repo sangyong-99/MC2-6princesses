@@ -2,6 +2,7 @@
 //  NextButtonView.swift
 //  sixprincesses
 //
+//  Created by 신서연 on 2023/05/08.
 //  Created by jaelyung kim on 2023/05/08.
 //
 
