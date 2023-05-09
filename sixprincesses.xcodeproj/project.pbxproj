@@ -12,6 +12,16 @@
 		5E8AC0162A0896FF00B9E2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8AC0152A0896FF00B9E2FC /* Assets.xcassets */; };
 		5E8AC0192A0896FF00B9E2FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8AC0182A0896FF00B9E2FC /* Preview Assets.xcassets */; };
 		5E8AC0202A08972C00B9E2FC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AC01F2A08972C00B9E2FC /* ModelData.swift */; };
+<<<<<<< HEAD
+=======
+		B9294F5D2A08CEF50025E195 /* View_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9294F5C2A08CEF50025E195 /* View_2.swift */; };
+		B9294F5F2A08CF010025E195 /* View_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9294F5E2A08CF010025E195 /* View_4.swift */; };
+		B9294F622A08D0DE0025E195 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9294F612A08D0DE0025E195 /* ColorExtension.swift */; };
+		B9294F642A08D6A60025E195 /* NextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9294F632A08D6A60025E195 /* NextButtonView.swift */; };
+		7D5A77DA2A089D2B0044BB61 /* View_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A77D92A089D2B0044BB61 /* View_2.swift */; };
+		7DF30DBA2A08C6AE00C70D25 /* NextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF30DB92A08C6AE00C70D25 /* NextButtonView.swift */; };
+		7DF30DBC2A08C70600C70D25 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF30DBB2A08C70600C70D25 /* ColorExtension.swift */; };
+>>>>>>> 84e5aed80077b4f4f3d2e6054305f6872ff7e744
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +31,16 @@
 		5E8AC0152A0896FF00B9E2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E8AC0182A0896FF00B9E2FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E8AC01F2A08972C00B9E2FC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		B9294F5C2A08CEF50025E195 /* View_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_2.swift; sourceTree = "<group>"; };
+		B9294F5E2A08CF010025E195 /* View_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_4.swift; sourceTree = "<group>"; };
+		B9294F612A08D0DE0025E195 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		B9294F632A08D6A60025E195 /* NextButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonView.swift; sourceTree = "<group>"; };
+		7D5A77D92A089D2B0044BB61 /* View_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_2.swift; sourceTree = "<group>"; };
+		7DF30DB92A08C6AE00C70D25 /* NextButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonView.swift; sourceTree = "<group>"; };
+		7DF30DBB2A08C70600C70D25 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+>>>>>>> 84e5aed80077b4f4f3d2e6054305f6872ff7e744
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,11 @@
 		5E8AC0102A0896FE00B9E2FC /* sixprincesses */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				B9294F5B2A08CEDF0025E195 /* Onboarding */,
+				7D5A77D82A089CB80044BB61 /* Onboarding */,
+>>>>>>> 84e5aed80077b4f4f3d2e6054305f6872ff7e744
 				5E8AC0112A0896FE00B9E2FC /* sixprincessesApp.swift */,
 				5E8AC0132A0896FE00B9E2FC /* ContentView.swift */,
 				5E8AC0212A08978600B9E2FC /* Data_extension */,
@@ -74,10 +99,33 @@
 			isa = PBXGroup;
 			children = (
 				5E8AC01F2A08972C00B9E2FC /* ModelData.swift */,
+<<<<<<< HEAD
+=======
+				B9294F612A08D0DE0025E195 /* ColorExtension.swift */,
+				7DF30DBB2A08C70600C70D25 /* ColorExtension.swift */,
+>>>>>>> 84e5aed80077b4f4f3d2e6054305f6872ff7e744
 			);
 			path = Data_extension;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		B9294F5B2A08CEDF0025E195 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B9294F5C2A08CEF50025E195 /* View_2.swift */,
+				B9294F5E2A08CF010025E195 /* View_4.swift */,
+				B9294F632A08D6A60025E195 /* NextButtonView.swift */,
+		7D5A77D82A089CB80044BB61 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7D5A77D92A089D2B0044BB61 /* View_2.swift */,
+				7DF30DB92A08C6AE00C70D25 /* NextButtonView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+>>>>>>> 84e5aed80077b4f4f3d2e6054305f6872ff7e744
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +199,16 @@
 				5E8AC0142A0896FE00B9E2FC /* ContentView.swift in Sources */,
 				5E8AC0122A0896FE00B9E2FC /* sixprincessesApp.swift in Sources */,
 				5E8AC0202A08972C00B9E2FC /* ModelData.swift in Sources */,
+<<<<<<< HEAD
+=======
+				B9294F642A08D6A60025E195 /* NextButtonView.swift in Sources */,
+				B9294F622A08D0DE0025E195 /* ColorExtension.swift in Sources */,
+				B9294F5D2A08CEF50025E195 /* View_2.swift in Sources */,
+				B9294F5F2A08CF010025E195 /* View_4.swift in Sources */,
+				7DF30DBC2A08C70600C70D25 /* ColorExtension.swift in Sources */,
+				7D5A77DA2A089D2B0044BB61 /* View_2.swift in Sources */,
+				7DF30DBA2A08C6AE00C70D25 /* NextButtonView.swift in Sources */,
+>>>>>>> 84e5aed80077b4f4f3d2e6054305f6872ff7e744
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
